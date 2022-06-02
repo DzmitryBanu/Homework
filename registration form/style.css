@@ -1,6 +1,6 @@
 body {
     position: relative;
-    background-image: url(zima.jpg);
+    background-image: url(https://studychinese.ru/content/dictionary/pictures/25/12998.jpg);
     backdrop-filter: blur(0px);
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,13 +11,13 @@ body {
 }
 
 fieldset {
-    border: solid 1px #871cc9;
+    border: solid 1px #1c7ec9;
 }
 
 .legend {
     font-family: 'comic', sans-MS;
     letter-spacing: 4px;
-    color: #8c1cc9;
+    color: #1c67c9;
     font-size: 20px;
 }
 
@@ -52,11 +52,11 @@ textarea {
 }
 
 .bordergreen:hover {
-    border: solid 2px #721cc9;
+    border: solid 2px #1c5ec9;
 }
 
 .bordergreen:focus, textarea:focus {
-    border: solid 2px #871cc9;
+    border: solid 2px #1c67c9;
 }
 
 form {
@@ -100,7 +100,7 @@ button {
 }
 
 button:hover, button:focus {
-    border-color: rgba(126, 9, 252, 0.8);
+    border-color: rgba(9, 98, 252, 0.8);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 236, 182, 0.6);
     outline: 0 none;
 }
@@ -129,7 +129,7 @@ input[type='radio']::before {
     border-radius: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    border: 2px solid #411cc9;
+    border: 2px solid #1c53c9;
 }
 
 input[type='radio']:checked::after {
@@ -140,7 +140,7 @@ input[type='radio']:checked::after {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #611cc9;
+    background-color: #1c64c9;
     transform: translate(-50%, -50%);
     visibility: visible;
 }
@@ -234,14 +234,14 @@ input[id=smoking-room], input[id=different-rooms] {
 input[type=checkbox]:checked+.checkbox::after, input[type=checkbox]:checked+.checkbox-label::after {
     content: "YES";
     text-align: left;
-    color: #7b1cc9;
+    color: #1c70c9;
     background: rgb(61, 61, 61);
 }
 
 input[type=checkbox]:checked+.checkbox-label::before {
     position: absolute;
     left: 176px;
-    background: #751cc9;
+    background: #1c6dc9;
     z-index: 1;
 }
 
@@ -262,6 +262,6 @@ input[type=checkbox]:checked+.checkbox-label::before {
 input[type=checkbox]:checked+.checkbox::before {
     position: absolute;
     left: 166px;
-    background: #7b1cc9;
+    background: #1c67c9;
     z-index: 1;
 }
